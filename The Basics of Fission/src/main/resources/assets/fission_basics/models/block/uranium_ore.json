@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fission_basics:block/uranium_ore"
+  }
+}

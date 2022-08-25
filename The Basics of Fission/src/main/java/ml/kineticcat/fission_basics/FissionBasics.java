@@ -1,5 +1,9 @@
 package ml.kineticcat.fission_basics;
 
+import ml.kineticcat.fission_basics.block.ModBlocks;
+import ml.kineticcat.fission_basics.item.ModItems;
+import ml.kineticcat.fission_basics.world.feature.ModConfiguredFeatures;
+import ml.kineticcat.fission_basics.world.feature.ModPlacedFeatures;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,6 +29,11 @@ import org.slf4j.Logger;
 public class FissionBasics {
     public FissionBasics() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

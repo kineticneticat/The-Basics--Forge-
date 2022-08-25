@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "fission_basics:block/uranium_ore" }
+  }
+}

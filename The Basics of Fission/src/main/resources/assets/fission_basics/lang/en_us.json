@@ -1,0 +1,11 @@
+{
+  "_": "------------------ITEMS-------------------",
+  "item.fission_basics.uranium_pellet": "Uranium Pellet",
+
+  "_": "__________________BLOCKS__________________________",
+  "block.fission_basics.uranium_ore": "Uranium Ore",
+
+
+  "itemGroup.fission_tab": "Fission Basics",
+  "itemGroup.radioactive_tab": "Fission Basics Radioactive Stuff"
+}
